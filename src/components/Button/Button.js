@@ -16,9 +16,7 @@ class Button extends React.Component {
                      : Styles.secondary
                }
             >
-               <a href="" className="text-decoration-none">
-                  {this.props.text}
-               </a>
+               {this.props.text}
             </div>
          </div>
       );

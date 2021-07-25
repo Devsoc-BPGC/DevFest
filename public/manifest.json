@@ -1,6 +1,6 @@
 {
-   "short_name": "Devfest 2021",
-   "name": "Devfest Registration Website",
+   "short_name": "React App",
+   "name": "Create React App Sample",
    "icons": [
       {
          "src": "favicon.ico",

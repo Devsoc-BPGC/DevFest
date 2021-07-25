@@ -1,69 +1,50 @@
 .mobile {
    @media only screen and (max-width: 576px) {
-      min-height: 100vh;
-      @media only screen and (max-width: 375px){
-         min-height: 120vh;
-      }
-      @media only screen and(max-height:739px) and(max-width: 320px) {
-         min-height: 170vh;
-      }
-      background-image: url('../../assets/img/background.svg');
-      position: relative;
+      background-image: url('../../assets/img/background.png');
+      position: 'relative';
       background-size: 200%;
       background-repeat: no-repeat;
       background-position: 50% 60%;
-   }
-   @media only screen and (min-width: 576px) {
-      h1 {
-         font-style: normal;
-         line-height: 88px;
-         letter-spacing: 0.2px;
-         font-weight: 400;
-         font-size: 80px;
-      }
-      main {
-         text-align: center;
-         p {
-            font-style: normal;
-            font-size: 36px;
-            line-height: 41px;
-         }
+      .height {
+         height: auto;
+         height: 100vh;
       }
    }
 }
-
 .Register {
-   @media only screen and(min-width:576px){
-      margin-top: 6.25rem;
-   }
+   margin-top: 10%;
    display: flex;
    justify-content: center;
    .buttons {
       display: flex;
       flex-wrap: wrap;
-      width: 80%;
+      width: 60%;
       justify-content: space-around;
-      .dashboard {
-         color: white;
-         background: #4452fe;
+      @media only screen and (max-width: 576px) {
+         position: absolute;
+         bottom: 5rem;
       }
       button {
          padding: 1rem 2.5rem;
          color: white;
          margin: 10px;
-         border: 1px solid #ffffff;
+      }
+      .dashboard {
+         color: white;
+         background: #4452fe;
       }
       .register {
          color: white;
          background-color: #181818;
+         border: 1px solid #ffffff;
       }
    }
 }
 
 .background {
    height: 100%;
-   width: 100%;
-   min-height: 50vh;
+      width: 100%;
+      min-height: 50vh;
    @media only screen and (max-width: 576px) {
       display: none;
    }
