@@ -36,23 +36,17 @@ const Homepage = () => {
                   </p>
                   <div className={`${Styles.Register}`}>
                      <div className={Styles.buttons}>
-                        <button
-                           className={`apply-button ${Styles.dashboard}`}
-                           // data-hackathon-slug="DevFest 2.0"
-                           // data-button-theme="light"
-                           style={{
-                              height: 'auto',
-                           }}
-                        >
-                           <a href="" className="text-decoration-none">
-                              Apply with Devfolio
-                           </a>
-                        </button>
-                        <button className={Styles.register}>
+                        <div
+                           className="apply-button"
+                           data-hackathon-slug="devfest"
+                           data-button-theme="light"
+                           style={{ height: '44px', width: '312px' }}
+                        />
+                        {/* <button className={Styles.register}>
                            <a href="" className="text-decoration-none">
                               Register for Talks/Workshops
                            </a>
-                        </button>
+                        </button> */}
                      </div>
                   </div>
                   <br />
