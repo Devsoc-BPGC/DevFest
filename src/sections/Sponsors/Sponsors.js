@@ -20,6 +20,7 @@ import VoiceFlow from '../../assets/img/sponsors/voiceflow.svg';
 import CodingNinjas from '../../assets/img/sponsors/Coding Ninjas Logo 2.png';
 import Caarya from '../../assets/img/sponsors/caaryalogo-dark.svg';
 import EchoAR from '../../assets/img/sponsors/echoAR - Logo.webp';
+import xyz from '../../assets/img/sponsors/xyz/xyz-logo-color.png';
 
 function Sponsors() {
    return (
@@ -124,6 +125,11 @@ function Sponsors() {
                      name: 'EchoAR',
                      image: EchoAR,
                      link: 'https://www.echoar.xyz/',
+                  },
+                  {
+                     name: '.xyz',
+                     image: xyz,
+                     link: 'https://gen.xyz/',
                   },
                ]}
             />
